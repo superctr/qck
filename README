@@ -1,0 +1,11 @@
+This repo contains music data and tools for the quattro sound driver. Everything is provided as-is and with no warranty.
+
+To build, you need msys2. run "make" then drag qck.ini to quattroplay.
+
+For built binary check release directory.
+
+Song data is in src. Check "trademark.s" and "dynalloc/dynalloc.s" for black magic.
+
+The include files contain the song command macros and are somewhat well documented.
+
+-ctr
